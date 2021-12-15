@@ -1,0 +1,45 @@
+#tableProducts {
+  // position: relative;
+  .table {
+    height: 200px;
+    width: 90%;
+    margin-top: 20px;
+    .column-header {
+      background-color: #212121;
+      color: #fff;
+      height: 50px;
+      .header {
+        &.id {
+          border-top-left-radius: 4px;
+          width: 100px;
+        }
+        &.image {
+          width: 300px;
+        }
+        &.action {
+          border-top-right-radius: 4px;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          background-color: #eee;
+          height: 100px;
+          color: #000;
+          text-align: center;
+          .icon {
+            display: flex;
+            justify-content: center;
+            .btn-icon {
+              margin-right: 20px;
+              border: none;
+              font-size: 18px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
